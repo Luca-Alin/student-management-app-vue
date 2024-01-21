@@ -53,8 +53,13 @@ const login = () => {
       </td>
     </tr>
   </table>
-
   <input type="submit" value="Submit">
+
+  <div>Account</div>
+    <ol>
+      <li>admin@fun-university.com</li>
+      <li>Password: password</li>
+    </ol>
 </form>
 </template>
 
