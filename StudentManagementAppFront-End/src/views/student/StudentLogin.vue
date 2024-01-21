@@ -57,6 +57,14 @@ function login() {
             <td><input id="btnLogin" class="auto-style2" name="btnLogin" type="submit" value="Log in" style="width: 100%; height: 100%;"/></td>
           </tr>
         </table>
+        <div>Accounts</div>
+        <ol>
+          <li>teddysmith@fun-university.com</li>
+          <li>johndoe@fun-university.com</li>
+          <li>janedoe@fun-iniversity.com</li>
+          <li>bobsmith@fun-univsity.com</li>
+          <li>Password: password</li>
+        </ol>
     </form>
 
     <a style="left: 50%; right: 50%" @click="router.push('/admin-login')">Click here if you're an admin</a>
